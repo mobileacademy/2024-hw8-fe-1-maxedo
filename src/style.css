@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#minesweeper-board {
+    display: grid;
+    gap: 2px;
+    border-radius: 2pt;
+    border: #000 solid;
+    margin-top: 20px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+.square.flagged {
+    background-color: yellow;
+}
+
+.square.opened {
+    background-color: lightgrey;
+}
+
+.square.bomb {
+    background-color: red;
+}

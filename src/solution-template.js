@@ -66,7 +66,7 @@ function generateBoard(boardMetadata) {
     */
     for (let i = 0; i < boardMetadata.colCount; i++) {
         for (let j = 0; j < boardMetadata.rowCount; j++) {
-            // TODO place the bomb, you can use the following formula: Math.random() * maxProbability < bombProbability
+            // TODO place the bomb, you can use the following formula: Math.random() * maxProbability < bombProbability   
         }
     }
 
